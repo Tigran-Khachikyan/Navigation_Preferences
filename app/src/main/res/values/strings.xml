@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Navigation_Preferences</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_home_fragment">HOME</string>
+
+    <string name="key_units">Key_units</string>
+    <string-array name="list_units_entry">
+       <item>
+           Imperial
+       </item>
+        <item>
+            Metric
+        </item>
+    </string-array>
+    <string-array name="list_units_values"> <item>
+           Imperial
+       </item>
+        <item>
+            Metric
+        </item>
+    </string-array>
+    <string name="list_def_value">Metric</string>
+</resources>

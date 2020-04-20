@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:icon="@drawable/ic_settings"
+        android:title="Measure units"
+        app:allowDividerBelow="true">
+
+        <ListPreference
+            android:entries="@array/list_units_entry"
+            android:entryValues="@array/list_units_values"
+            android:key="@string/key_units"
+            android:title="units"
+            android:summary="Select the unit of measure"
+            android:defaultValue="@string/list_def_value"
+            android:icon="@drawable/ic_settings"
+            android:dialogIcon="@drawable/ic_add_alarm_black_24dp"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:icon="@drawable/ic_add_alarm_black_24dp"
+        android:title="Pricing details">
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

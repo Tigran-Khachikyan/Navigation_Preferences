@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvUnit"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/holo_blue_dark"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/user_field"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@android:color/holo_green_dark"
+        app:boxStrokeWidth="4dp"
+        app:startIconDrawable="@drawable/ic_settings"
+        app:startIconTint="@android:color/holo_blue_dark"
+        android:hint="full name"
+        app:hintTextColor="@android:color/holo_blue_bright"
+        app:endIconMode="clear_text"
+        app:endIconDrawable="@android:drawable/ic_delete"
+        app:endIconTint="@android:color/holo_red_dark"
+        app:errorTextColor="@android:color/holo_red_dark"
+        app:errorIconTintMode="screen"
+        app:helperText="input your first and last names"
+        app:helperTextTextColor="@android:color/holo_orange_dark">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="24sp"
+        android:text="settings"/>
+
+</LinearLayout>
