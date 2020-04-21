@@ -23,6 +23,30 @@
         android:icon="@drawable/ic_add_alarm_black_24dp"
         android:title="Pricing details">
 
+        <CheckBoxPreference
+            android:key="key_CheckBox"
+            android:title="Pricing_switcher"
+            android:summary="Add price config into your calculations."
+            app:icon="@android:drawable/ic_delete"/>
+
+        <ListPreference
+            android:key="key_pricing"
+            android:title="get from source"
+            android:summary="select the source type."
+            android:entries="@array/list_source_entries"
+            android:entryValues="@array/list_source_values"
+            android:dialogIcon="@drawable/ic_add_alarm_black_24dp"
+            android:dependency="key_CheckBox"
+            android:defaultValue="@string/default_source"/>
+
+        <EditTextPreference
+            android:key="key_editText"
+            android:title="aluminium"
+            android:summary="set price"
+            app:dialogIcon="@drawable/ic_add_alarm_black_24dp"
+            android:dependency="key_CheckBox"
+            android:inputType="number"
+            android:defaultValue="33.45"/>
 
     </PreferenceCategory>
 

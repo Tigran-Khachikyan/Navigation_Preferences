@@ -27,7 +27,8 @@
         android:name="com.calcprojects.navigation_preferences.Preference"
         android:background="@android:color/holo_blue_dark"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

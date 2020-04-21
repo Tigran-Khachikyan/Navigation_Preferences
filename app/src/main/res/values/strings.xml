@@ -21,4 +21,22 @@
         </item>
     </string-array>
     <string name="list_def_value">Metric</string>
+    <string-array name="list_source_entries">
+        <item>
+            From Api
+        </item>
+        <item>
+            Input manually
+        </item>
+    </string-array>
+
+    <string-array name="list_source_values">
+        <item>
+            From Api
+        </item>
+        <item>
+            Input manually
+        </item>
+    </string-array>
+    <string name="default_source">From Api</string>
 </resources>
